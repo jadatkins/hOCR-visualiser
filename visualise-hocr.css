@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+[class*="ocr_"], [class*="ocrx_"] {
+    display: block;
+    position: fixed;
+    box-sizing: border-box;
+    border: 1px gray solid;
+    margin: 0;
+}
+.ocr_page {
+    position: static;
+    transform: translate(0, 0);
+    height: 2000px;
+}
+
+.ocr_page       { border-color: cornflowerblue; }
+.ocr_column     { border-color: grey; }
+.ocr_carea      { border-color: gold; }
+.ocr_line       { border-color: lightcoral; border-style: dotted; }
+.ocr_separator  { border-color: grey; }
+.ocr_noise      { border-color: grey; }
+
+.ocr_float      { border-color: grey; }
+.ocr_textfloat,
+.ocr_textimage  { border-color: grey; }
+.ocr_image,
+.ocr_linedrawing,
+.ocr_photo      { border-color: grey; }
+.ocr_header,
+.ocr_footer     { border-color: grey; }
+.ocr_pageno     { border-color: grey; }
+.ocr_table      { border-color: grey; }
+
+.ocr_document   { border-color: grey; }
+.ocr_title,
+.ocr_author,
+.ocr_abstract   { border-color: grey; }
+.ocr_part,
+.ocr_chapter    { border-color: grey; }
+.ocr_section,
+.ocr_subsection,
+.ocr_subsubsection { border-color: grey; }
+.ocr_display,
+.ocr_blockquote,
+.ocr_par        { border-color: lime; border-style: dashed; }
+.ocr_linear     { border-color: grey; }
+.ocr_caption    { border-color: grey; }
+
+.ocr_glyph,
+.ocr_glyphs     { border-color: grey; }
+.ocr_dropcap    { border-color: grey; }
+.ocr_math,
+.ocr_chem       { border-color: grey; }
+.ocr_info       { border-color: grey; }
+
+.ocrx_block     { border-color: grey; }
+.ocrx_line      { border-color: grey; }
+.ocrx_word      { border-color: rgba(30, 144, 255, 0.5); }
